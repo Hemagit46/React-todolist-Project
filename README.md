@@ -1,16 +1,93 @@
-# React + Vite
+# React Authentication Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project that demonstrates **user authentication** using `localStorage`. The project includes pages for Home, Login, and Register, allowing users to create an account, log in, and access the home page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Home Page** (`Home.jsx`): Accessible after login. Displays a welcome message or user info.
+- **Login Page** (`Login.jsx`): Allows users to log in with registered credentials.
+- **Register Page** (`Register.jsx`): Allows new users to create an account.
+- **Local Storage**: Stores user credentials locally (for demonstration purposes only; not secure for production).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Functional Components)
+- React Router (for navigation between pages)
+- Local Storage (to store user credentials)
+- CSS (optional styling)
+
+---
+
+## Installation
+
+1. Clone the repository:
+# React Authentication Project
+
+This is a simple React project that demonstrates **user authentication** using `localStorage`. The project includes pages for Home, Login, and Register, allowing users to create an account, log in, and access the home page.
+
+---
+
+## Features
+
+- **Home Page** (`Home.jsx`): Accessible after login. Displays a welcome message or user info.
+- **Login Page** (`Login.jsx`): Allows users to log in with registered credentials.
+- **Register Page** (`Register.jsx`): Allows new users to create an account.
+- **Local Storage**: Stores user credentials locally (for demonstration purposes only; not secure for production).
+
+---
+
+## Technologies Used
+
+- React (Functional Components)
+- React Router (for navigation between pages)
+- Local Storage (to store user credentials)
+- CSS (optional styling)
+
+---
+
+## Installation
+
+1. Clone the repository:
+   git clone : " https://github.com/Hemagit46/React-todolist-Project.git"
+   
+2. Navigate to the project directory:
+   cd react-task
+
+3. Install dependencies:
+   npm install
+
+4. run:
+   npm run dev
+   
+------------
+
+Notes
+
+1.This project uses localStorage to store user credentials, which is not secure for real-world applications. For production apps, use proper backend authentication with encryption.
+
+2.This is a demo project for learning React and basic client-side authentication.
+
+-------------
+File Structure
+
+src/
+├── components/
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   └── Register.jsx
+├── App.jsx
+├── index.js
+└── styles.css
+
+------------
+
+Author:
+Hemasree
+
+
+   git clone <your-repo-url>
+
